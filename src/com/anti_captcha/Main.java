@@ -13,20 +13,25 @@ import java.net.URL;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException, JSONException {
-        exampleGetBalance();
-        exampleImageToText();
-        exampleRecaptchaV2();
-        exampleRecaptchaV2Proxyless();
-        exampleRecaptchaV3Proxyless();
-        exampleRecaptchaV2Enterprise();
-        exampleRecaptchaV2EnterpriseProxyless();
-        exampleRecaptchaV3EnterpriseProxyless();
-        exampleFuncaptcha();
-        exampleFuncaptchaProxyless();
-        exampleGeeTest();
-        exampleGeeTestProxyless();
-        exampleHCaptchaProxyless();
-        exampleAntiGateTask();
+        DebugHelper.setVerboseMode(true);
+        RecaptchaV2Proxyless api = new RecaptchaV2Proxyless();
+        api.setClientKey("d4e059b9f75149a7bee19645ae65b1a1");
+
+        System.out.println(api.getBalance());
+        // exampleGetBalance();
+        // exampleImageToText();
+        // exampleRecaptchaV2();
+        // exampleRecaptchaV2Proxyless();
+        // exampleRecaptchaV3Proxyless();
+        // exampleRecaptchaV2Enterprise();
+        // exampleRecaptchaV2EnterpriseProxyless();
+        // exampleRecaptchaV3EnterpriseProxyless();
+        // exampleFuncaptcha();
+        // exampleFuncaptchaProxyless();
+        // exampleGeeTest();
+        // exampleGeeTestProxyless();
+        // exampleHCaptchaProxyless();
+        // exampleAntiGateTask();
     }
 
 
