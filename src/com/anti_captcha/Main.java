@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException, MalformedURLException, JSONException {
         DebugHelper.setVerboseMode(true);
         RecaptchaV2Proxyless api = new RecaptchaV2Proxyless();
-        api.setClientKey("d4e059b9f75149a7bee19645ae65b1a1");
+        api.setClientKey("123456789");
 
         System.out.println(api.getBalance());
         // exampleGetBalance();
