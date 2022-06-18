@@ -3,14 +3,10 @@ package com.anti_captcha.ApiResponse;
 import com.anti_captcha.Helper.DebugHelper;
 import com.anti_captcha.Helper.JsonHelper;
 
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 public class TaskResultResponse {
     private Integer errorId;

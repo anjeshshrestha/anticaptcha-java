@@ -9,10 +9,10 @@ import com.anti_captcha.Helper.JsonHelper;
 import com.anti_captcha.Helper.StringHelper;
 import com.anti_captcha.Http.HttpRequest;
 
+import java.util.concurrent.TimeUnit;
+
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.concurrent.TimeUnit;
 
 public abstract class AnticaptchaBase {
     protected TaskResultResponse taskInfo;
