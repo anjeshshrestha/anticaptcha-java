@@ -16,5 +16,5 @@ javac -cp "libs/*" \
 
 Run:
 ```bash
-$ java -cp "src:libs/*" com.anti_captcha.Main
+$ java -cp "src:libs/*" com.anticaptcha.Main
 ```

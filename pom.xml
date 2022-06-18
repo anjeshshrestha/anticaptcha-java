@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.anti_captcha</groupId>
-    <artifactId>anti_captcha-java</artifactId>
+    <groupId>com.github.anticaptcha</groupId>
+    <artifactId>anticaptcha-java</artifactId>
     <version>1.0.0</version>
 
-    <name>anti_captcha-java</name>
-    <description>Java library for easy integration with the API of anti_captcha solving service to bypass recaptcha, hcaptcha, funcaptcha, geetest and solve any other captchas.</description>
+    <name>anticaptcha-java</name>
+    <description>Java library for easy integration with the API of anticaptcha solving service to bypass recaptcha, hcaptcha, funcaptcha, geetest and solve any other captchas.</description>
     <url>https://anti-captcha.com/</url>
 
     <licenses>
@@ -22,9 +22,9 @@
 
     <developers>
         <developer>
-            <name>anti_captcha</name>
+            <name>anticaptcha</name>
             <url>https://github.com/AdminAnticaptcha/anticaptcha-java</url>
-            <id>anti_captcha</id>
+            <id>anticaptcha</id>
         </developer>
     </developers>
 
